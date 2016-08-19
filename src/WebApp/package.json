@@ -1,0 +1,22 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "ASP.NET Core web app poc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenVandenBroeck/webpoc_aspnetcore1.git"
+  },
+  "author": "Steven Vanden Broeck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenVandenBroeck/webpoc_aspnetcore1/issues"
+  },
+  "homepage": "https://github.com/StevenVandenBroeck/webpoc_aspnetcore1#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
