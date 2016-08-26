@@ -1,13 +1,13 @@
 var path = require('path');
 var webpack = require('webpack');
 
-var webClientPath = path.join(__dirname, 'WebClient');
+var webClientPath = path.resolve(__dirname, 'WebClient');
 
 module.exports = {
-     context: path.join(__dirname, 'WebClient/js'),
+     context: path.resolve(__dirname, 'WebClient/js'),
      entry: ['bootstrap-loader', './index.js'],
      output: {
-          path: path.join(__dirname, 'wwwroot/js'),
+          path: path.resolve(__dirname, 'wwwroot/js'),
           filename: 'index.bundle.js'
      },
      module:{
