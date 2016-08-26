@@ -5,7 +5,7 @@ var webClientPath = path.join(__dirname, 'WebClient');
 
 module.exports = {
      context: path.join(__dirname, 'WebClient/js'),
-     entry: ['./index.js'],
+     entry: ['bootstrap-loader', './index.js'],
      output: {
           path: path.join(__dirname, 'wwwroot/js'),
           filename: 'index.bundle.js'
